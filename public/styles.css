@@ -1,0 +1,40 @@
+/* Home page */
+
+body {
+  background-color: #efe0d5;
+}
+
+.header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.check-form {
+  text-align: center;
+  margin: 1.5rem auto 0 auto;
+}
+
+.subheader {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+}
+
+table {
+  margin: 1.5rem auto 0 auto;
+}
+
+select {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.3rem;
+  border-radius: 3rem;
+  margin: 0 4rem;
+}
+
+.sub-btn {
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  margin: 3rem;
+  padding: 0.5rem 7rem;
+  border-radius: 2rem;
+}
