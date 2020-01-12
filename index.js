@@ -1,6 +1,9 @@
+//
 // If you are using the Atom editor with
-// the linter-jshint package installed, add the
-// following comment:
+//   the linter-jshint package installed,
+//   add the following comment below.
+//   Otherwise, you can delete it.
+// 
 
 //jshint esversion:6
 
@@ -16,6 +19,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
+
+
 
 app.post("/", function(req, res) {
 
@@ -42,3 +47,7 @@ app.post("/", function(req, res) {
 app.listen(3000, function() {
   console.log("Server running on port 3000.");
 });
+
+
+
+
