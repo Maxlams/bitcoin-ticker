@@ -1,6 +1,8 @@
 # Crypto-Ticker
 Check the latest price of a particular cryptocurrency using the [BitcoinAverage API](https://apiv2.bitcoinaverage.com/)! See below for installations (Windows).
 
+![Crypto-Ticker Local Image](images/crypto-ticker.png)
+
 ## Install Node.js (required)
 Node.js is used to greatly simplify the development of JavaScript web apps.
 
