@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Crypto-Ticker</title>
-  </head>
-  <body>
 
-    <h1>Crypto-Ticker</h1>
+<head>
+  <meta charset="utf-8">
+  <title>Crypto-Ticker</title>
 
-    <form action="/" method="post">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
-      <select name="crypto">
-        <option value="BTC">Bitcoin</option>
-        <option value="ETH">Ethereum</option>
-        <option value="LTC">Litecoins</option>
-      </select>
+</head>
 
-      <select name="fiat">
-        <option value="USD">US Dollars</option>
-        <option value="GBP">GB Pounds</option>
-        <option value="EUR">EU Euros</option>
-      </select>
+<body>
 
-      <button type="submit" name="button">Check</button>
-    </form>
-  </body>
+  <h1 class="header">Crypto-Ticker</h1>
+
+  <form class="check-form" action="/" method="post">
+
+    <table>
+
+      <tr>
+
+        <td>
+          <p class="subheader">Cryptocurrency</p>
+        </td>
+
+        <td>
+          <p class="subheader">Fiat Currency</p>
+        </td>
+
+      </tr>
+
+      <tr>
+
+        <td>
+          <select name="crypto">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoins</option>
+            <option value="DASH">Dash</option>
+            <option value="XRP">Ripple</option>
+            <option value="XMR">Monero</option>
+          </select>
+        </td>
+
+        <td>
+          <select name="fiat">
+            <option value="USD">US Dollars</option>
+            <option value="GBP">GB Pounds</option>
+            <option value="EUR">EU Euros</option>
+          </select>
+        </td>
+
+      </tr>
+
+    </table>
+
+    <button class="sub-btn" type="submit" name="button">Check</button>
+
+  </form>
+
+</body>
+
 </html>
