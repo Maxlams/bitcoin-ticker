@@ -35,8 +35,8 @@ app.post("/", function(req, res) {
     var price = data.last; // key = last
     var currDate = data.display_timestamp; // key = display_timestamp
 
-    res.write("<p>The current date and time is " + currDate + "</p>");
-    res.write("<h1>The price of " + crypto + " is " + price + fiat + "</h1>");
+    res.write("<p>" + currDate + "</p>");
+    res.write("<h1>The current price of " + crypto + " is " + price + fiat + "</h1>");
 
     res.send();
 
