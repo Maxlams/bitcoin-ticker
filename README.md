@@ -1,5 +1,7 @@
 # Crypto-Ticker
-Check the latest price of a particular cryptocurrency using the [BitcoinAverage API](https://apiv2.bitcoinaverage.com/)! See below for installations (Windows).
+Check the latest price of a particular cryptocurrency using the [BitcoinAverage API](https://apiv2.bitcoinaverage.com/)! Visit the [app](https://enigmatic-citadel-31100.herokuapp.com/) deployed using Heroku...
+
+Or, if you'd like, see below for steps on how to host the app locally (Windows).
 
 ![Crypto-Ticker Local Image](images/crypto-ticker.png)
 
@@ -51,4 +53,4 @@ $ nodemon index.js
 
 7. Go to the **Chrome** browser and type in `localhost:3000` in the address bar.
 
-8. **AND WE'RE DONE!** You should be set up now. Press `ctrl+c` to stop the local server.
+8. **AND WE'RE DONE!** You're all set up now. Press `ctrl+c` to stop the local server.
