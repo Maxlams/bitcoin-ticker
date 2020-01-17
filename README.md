@@ -1,5 +1,5 @@
 # Crypto-Ticker
-Check the latest price of a particular cryptocurrency using the [BitcoinAverage API](https://apiv2.bitcoinaverage.com/)! Visit the [app](https://enigmatic-citadel-31100.herokuapp.com/) deployed using Heroku...
+Check the latest price of a particular cryptocurrency using the [BitcoinAverage API](https://apiv2.bitcoinaverage.com/)! Visit the [app](https://enigmatic-citadel-31100.herokuapp.com/) deployed to Heroku...
 
 Or, if you'd like, see below for steps on how to host the app locally (Windows).
 
