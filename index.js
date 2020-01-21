@@ -24,16 +24,16 @@ app.get("/", function(req, res) {
 
 app.post("/", function(req, res) {
 
-  var crypto = req.body.crypto; // from HTML
-  var fiat = req.body.fiat; // from HTML
-  var bitcoinURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/";
-  var wholeURL = bitcoinURL + crypto + fiat; // final HTTP request link
+  let crypto = req.body.crypto; // from HTML
+  let fiat = req.body.fiat; // from HTML
+  let bitcoinURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/";
+  let wholeURL = bitcoinURL + crypto + fiat; // final HTTP request link
 
   request(wholeURL, function(error, response, body) { // ("url", function(error, response, body))
 
-    var data = JSON.parse(body); // turns JSON (JavaScript Obejct Notation) file into JS file
-    var price = data.last; // key = last
-    var currDate = data.display_timestamp; // key = display_timestamp
+    let data = JSON.parse(body); // turns JSON (JavaScript Obejct Notation) file into JS file
+    let price = data.last; // key = last
+    let currDate = data.display_timestamp; // key = display_timestamp
 
     res.write("<p>" + currDate + "</p>");
     res.write("<h1>The current price of " + crypto + " is " + price + fiat + "</h1>");
